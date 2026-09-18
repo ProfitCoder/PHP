@@ -11,6 +11,10 @@ Here I'll let some of the most important commands:
 ## Arrancar todo el entorno
 docker compose up -d
 
+## How to create a proyect
+
+powershell -ExecutionPolicy Bypass -File .\new-project.ps1 -Nombre proyecto2
+
 ## Parar el entorno (sin borrar nada)
 docker compose stop
 
@@ -22,6 +26,7 @@ docker compose exec web bash
 
 ## Ejecutar Composer/PHPUnit en un proyecto concreto
 docker compose exec -w /var/www/projects/NOMBRE web composer install
+
 docker compose exec -w /var/www/projects/NOMBRE web phpunit tests
 
 ## Reconstruir la imagen tras cambiar el Dockerfile
@@ -44,6 +49,7 @@ docker compose exec web bash
 
 ## Ejecutar Composer/PHPUnit en un proyecto concreto
 docker compose exec -w /var/www/projects/NOMBRE web composer install
+
 docker compose exec -w /var/www/projects/NOMBRE web phpunit tests
 
 ## Reconstruir la imagen tras cambiar el Dockerfile
