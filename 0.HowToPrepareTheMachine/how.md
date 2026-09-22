@@ -11,9 +11,13 @@ Here I'll let some of the most important commands:
 ## Arrancar todo el entorno
 docker compose up -d
 
-## How to create a proyect
+## Como crear un proyecto
 
 powershell -ExecutionPolicy Bypass -File .\new-project.ps1 -Nombre proyecto2
+
+# Also
+
+mkdir 
 
 ## Parar el entorno (sin borrar nada)
 docker compose stop
