@@ -1,6 +1,6 @@
-# Excercises 1st Relation
+Excercises 1st Relation
 
-## Create Variables
+Create Variables
 
 <?php
 
@@ -17,4 +17,45 @@
         
         echo "This is on the continent of  ".$continent ."</br>";
 
+?>
+
+
+Change from Euro € to Dolars $
+
+<?php
+        $euros = 45;
+        $dolar = 1.14;
+
+        echo "Tenemos ".$euros." y lo vamos a pasar a dolares, simplemente hay que multiplicar por ".$dolar."</br>";
+
+        $cambio = $euros*$dolar;
+
+        echo "Así que al cambio, ".$euros." euros, son: ".$cambio." dolares. </br>";
+
+?>
+
+
+The two dices
+
+
+<?php 
+
+        $dardo1 = random_int(1,6);
+        $dardo2 = random_int(1,6);
+
+        echo "El primer numero es: ".$dardo1."</br>";
+        echo "Y el segundo es: ".$dardo2."</br>";
+
+
+        if($dardo1 === $dardo2){
+            echo "Han salido el mismo nº en los dos dados. </br>";
+        }
+        else if($dardo1 > $dardo2)
+        {
+            echo "El nº mas alto de los dos, es el primero ".$dardo1."</br>";
+        }
+        else
+        {
+            echo "El nº mas alto de los dos, es el segundo ".$dardo2."</br>";
+        }
 ?>
