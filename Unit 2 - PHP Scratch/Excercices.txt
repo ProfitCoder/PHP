@@ -2,22 +2,25 @@ Excercises 1st Relation
 
 Create Variables
 
-<?php
+    <p>Ejercicio 1</p>
+
+    <?php
 
         //Create Variables
-       
-        $country = "Spain";
-        $poblation = 2000000;
-        $continent = "Europe";                        //This goes into a HTML code, on the body.
+        const PAIS = "España" ;                     //Para hacerlo constante
+        define("HABITANTES",2000000);              //Para hacerlo constante
+        $continente = "Europa";
 
-        
-        echo "This is the value of the country".$country ."</br>";
-        
-        echo "They have a total of ".$poblation ." Poblation. </br>";
-        
-        echo "This is on the continent of  ".$continent ."</br>";
+        /*
+        echo "Este es el valor de el pais ".PAIS ."</br>";
+        echo "Tiene un total de ".HABITANTES ." Habitantes. </br>";
+        echo "Esta usted en el continente ".$continente ."</br>";
+        */
 
-?>
+    ?>
+
+    <p>Estamos en un pais llamado <?= PAIS ?> , que tiene un total de <?= HABITANTES ?> habitantes, y esta en el continent de <?= $continente ?></p>
+
 
 
 Change from Euro € to Dolars $
