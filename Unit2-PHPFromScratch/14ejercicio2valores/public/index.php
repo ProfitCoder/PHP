@@ -20,7 +20,7 @@
                 echo "El primer número debe ser menor que el segundo.";
             } else {
                 for ($i = floor($a) + 1; $i < $b; $i++) {
-                    echo $i . " ";
+                    echo $i;
                 }
             }
         }
