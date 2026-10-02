@@ -21,14 +21,6 @@ The purpose of this repository is to document my progress, practise what I learn
 
 It will also be part of my programming portfolio, showing my progress throughout the course.
 
-## ⚠️ Legal Notice
-
-This repository is intended for educational purposes only. Some exercises may be based on classroom activities, official documentation or other learning resources.
-
-The code may contain errors and is not guaranteed to be suitable for production environments.
-
-You may use the original code for educational purposes, provided that appropriate credit is given. Third-party materials remain the property of their respective authors and are subject to their own licences.
-
 ## 📌 Project Status
 
 🟡 **Work in progress**
@@ -59,14 +51,6 @@ Repositorio creado durante mi segundo curso de **Desarrollo de Aplicaciones Web 
 El objetivo de este repositorio es documentar mi progreso, practicar los contenidos aprendidos en clase y crear una referencia personal para el futuro.
 
 También servirá como parte de mi portfolio de programación, mostrando mi evolución durante el curso.
-
-## ⚠️ Aviso legal
-
-Este repositorio tiene fines exclusivamente educativos. Algunos ejercicios pueden estar basados en actividades propuestas durante el curso, documentación oficial u otros recursos formativos.
-
-El código puede contener errores y no se garantiza que sea adecuado para utilizarlo en entornos de producción.
-
-Puedes utilizar el código original con fines educativos, siempre que se reconozca su procedencia. Los materiales de terceros pertenecen a sus respectivos autores y están sujetos a sus propias licencias.
 
 ## 📌 Estado del proyecto
 
