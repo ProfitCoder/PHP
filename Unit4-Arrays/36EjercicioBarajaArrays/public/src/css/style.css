@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: url("../img/istockphoto-157622968-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+}
