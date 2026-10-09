@@ -37,21 +37,5 @@
         $palabrasEspañol = array("Casa","Puerta","Rojo");
         $palabrasIngles = array("House","Door","Red");
     ?>
-
-    <table>
-        <thead>
-            <tr>
-                <th>English</th>
-                <th>Español</th>    
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-
-
 </body>
 </html>
