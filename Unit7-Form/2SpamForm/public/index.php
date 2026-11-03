@@ -4,4 +4,7 @@
   require __DIR__ . '/../autoloader.php';
   require __DIR__ . '/../config/config.php';
   
-  Controllers\FrontController::main();
+  use Controllers\FrontController;
+
+  FrontController::main();
+
