@@ -6,8 +6,6 @@
 
 <?php foreach ($imagenes as $imagen): ?>
     <p>
-        <img src="images/<?= e($imagen) ?>"
-             alt="Imagen subida"
-             width="200">
+        <img src="images/<?= e($imagen) ?>" alt="Imagen subida" width="200">
     </p>
 <?php endforeach; ?>
